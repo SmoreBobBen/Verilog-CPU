@@ -1,11 +1,11 @@
 `timescale 1ns/100ps 
-module dff_tb; // [insert] testbench name
+module dff_tb; // TODO [insert] testbench name
 
     //inputs
-    reg in, reset, rval, enable; // [insert] tested module inputs
+    reg in, reset, rval, enable; // TODO [insert] tested module inputs
 
     //outputs
-    wire out; // [insert] module outputs
+    wire out; // TODO [insert] module outputs
 
     //clk cycle stuff (comment out of clk not used) ----------------
     parameter PERIOD = 10;
@@ -23,7 +23,7 @@ module dff_tb; // [insert] testbench name
     end
     //end clk cycle stuff ------------------------------------------
 
-    myDFF u0( // [insert] module name and definitions
+    myDFF u0( // TODO [insert] module name and definitions
         .clk(clk),
         .in(in),
         .enable(enable),
@@ -35,7 +35,7 @@ module dff_tb; // [insert] testbench name
     initial begin
         //simulation data dumped to the testbench file
         $dumpfile("testbench.vcd");
-        $dumpvars(0,dff_tb); // [insert] testbench name
+        $dumpvars(0,dff_tb); // TODO [insert] testbench name
         
         // initial values
         in=1'b0; reset=1'b1; rval=1'b0; enable=1'b0;

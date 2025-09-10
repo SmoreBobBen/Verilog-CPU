@@ -3,10 +3,10 @@
 
 module myDFF(
     input clk,
-    input in,
-    input enable,
     input reset,
+    input enable,
     input rval,
+    input in,
     output out
 );
 
@@ -16,6 +16,7 @@ module myDFF(
     //always @(posedge clk) begin
     //    newout = in;
     //end
+    //TODO
 
     always @(posedge clk) begin
         if (reset == 1)

@@ -1,8 +1,8 @@
-WAVEFORM    := add_wave
+WAVEFORM    := dff_wave
 TESTFILE    := testbench.vcd
-TESTBENCH   := tb_add8.v
-VFILES      := add8.v
-DEPENDENCIES:= fadd.v hadd.v
+TESTBENCH   := addtest_tb.v
+VFILES      := addtest.v
+DEPENDENCIES:= ./math/hadd.v myDFF.v
 CREATED     := $(WAVEFORM) $(TESTFILE)
 
 # create waveform file (left) using given files and testbench (right)

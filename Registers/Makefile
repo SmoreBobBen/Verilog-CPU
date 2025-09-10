@@ -1,8 +1,8 @@
-WAVEFORM    := add_wave
+WAVEFORM    := reg_wave
 TESTFILE    := testbench.vcd
-TESTBENCH   := tb_add8.v
-VFILES      := add8.v
-DEPENDENCIES:= fadd.v hadd.v
+TESTBENCH   := Reg32_tb.v
+VFILES      := Reg32.v
+DEPENDENCIES:= ../basics/components/myDFF.v
 CREATED     := $(WAVEFORM) $(TESTFILE)
 
 # create waveform file (left) using given files and testbench (right)

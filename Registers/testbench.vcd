@@ -1,0 +1,639 @@
+$date
+	Tue Sep  9 18:22:29 2025
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	100ps
+$end
+$scope module Reg32_tb $end
+$var wire 32 ! readData [31:0] $end
+$var reg 1 " clk $end
+$var reg 1 # regWrite $end
+$var reg 1 $ reset $end
+$var reg 32 % writeData [31:0] $end
+$scope module theregs $end
+$var wire 1 " clk $end
+$var wire 1 # regWrite $end
+$var wire 1 $ reset $end
+$var wire 32 & writeData [31:0] $end
+$var wire 32 ' readData [31:0] $end
+$scope begin genblk1[0] $end
+$scope module bitreg $end
+$var wire 1 " clk $end
+$var wire 1 # enable $end
+$var wire 1 ( in $end
+$var wire 1 ) out $end
+$var wire 1 $ reset $end
+$var wire 1 * rval $end
+$var reg 1 ) newout $end
+$upscope $end
+$upscope $end
+$scope begin genblk1[1] $end
+$scope module bitreg $end
+$var wire 1 " clk $end
+$var wire 1 # enable $end
+$var wire 1 + in $end
+$var wire 1 , out $end
+$var wire 1 $ reset $end
+$var wire 1 - rval $end
+$var reg 1 , newout $end
+$upscope $end
+$upscope $end
+$scope begin genblk1[2] $end
+$scope module bitreg $end
+$var wire 1 " clk $end
+$var wire 1 # enable $end
+$var wire 1 . in $end
+$var wire 1 / out $end
+$var wire 1 $ reset $end
+$var wire 1 0 rval $end
+$var reg 1 / newout $end
+$upscope $end
+$upscope $end
+$scope begin genblk1[3] $end
+$scope module bitreg $end
+$var wire 1 " clk $end
+$var wire 1 # enable $end
+$var wire 1 1 in $end
+$var wire 1 2 out $end
+$var wire 1 $ reset $end
+$var wire 1 3 rval $end
+$var reg 1 2 newout $end
+$upscope $end
+$upscope $end
+$scope begin genblk1[4] $end
+$scope module bitreg $end
+$var wire 1 " clk $end
+$var wire 1 # enable $end
+$var wire 1 4 in $end
+$var wire 1 5 out $end
+$var wire 1 $ reset $end
+$var wire 1 6 rval $end
+$var reg 1 5 newout $end
+$upscope $end
+$upscope $end
+$scope begin genblk1[5] $end
+$scope module bitreg $end
+$var wire 1 " clk $end
+$var wire 1 # enable $end
+$var wire 1 7 in $end
+$var wire 1 8 out $end
+$var wire 1 $ reset $end
+$var wire 1 9 rval $end
+$var reg 1 8 newout $end
+$upscope $end
+$upscope $end
+$scope begin genblk1[6] $end
+$scope module bitreg $end
+$var wire 1 " clk $end
+$var wire 1 # enable $end
+$var wire 1 : in $end
+$var wire 1 ; out $end
+$var wire 1 $ reset $end
+$var wire 1 < rval $end
+$var reg 1 ; newout $end
+$upscope $end
+$upscope $end
+$scope begin genblk1[7] $end
+$scope module bitreg $end
+$var wire 1 " clk $end
+$var wire 1 # enable $end
+$var wire 1 = in $end
+$var wire 1 > out $end
+$var wire 1 $ reset $end
+$var wire 1 ? rval $end
+$var reg 1 > newout $end
+$upscope $end
+$upscope $end
+$scope begin genblk1[8] $end
+$scope module bitreg $end
+$var wire 1 " clk $end
+$var wire 1 # enable $end
+$var wire 1 @ in $end
+$var wire 1 A out $end
+$var wire 1 $ reset $end
+$var wire 1 B rval $end
+$var reg 1 A newout $end
+$upscope $end
+$upscope $end
+$scope begin genblk1[9] $end
+$scope module bitreg $end
+$var wire 1 " clk $end
+$var wire 1 # enable $end
+$var wire 1 C in $end
+$var wire 1 D out $end
+$var wire 1 $ reset $end
+$var wire 1 E rval $end
+$var reg 1 D newout $end
+$upscope $end
+$upscope $end
+$scope begin genblk1[10] $end
+$scope module bitreg $end
+$var wire 1 " clk $end
+$var wire 1 # enable $end
+$var wire 1 F in $end
+$var wire 1 G out $end
+$var wire 1 $ reset $end
+$var wire 1 H rval $end
+$var reg 1 G newout $end
+$upscope $end
+$upscope $end
+$scope begin genblk1[11] $end
+$scope module bitreg $end
+$var wire 1 " clk $end
+$var wire 1 # enable $end
+$var wire 1 I in $end
+$var wire 1 J out $end
+$var wire 1 $ reset $end
+$var wire 1 K rval $end
+$var reg 1 J newout $end
+$upscope $end
+$upscope $end
+$scope begin genblk1[12] $end
+$scope module bitreg $end
+$var wire 1 " clk $end
+$var wire 1 # enable $end
+$var wire 1 L in $end
+$var wire 1 M out $end
+$var wire 1 $ reset $end
+$var wire 1 N rval $end
+$var reg 1 M newout $end
+$upscope $end
+$upscope $end
+$scope begin genblk1[13] $end
+$scope module bitreg $end
+$var wire 1 " clk $end
+$var wire 1 # enable $end
+$var wire 1 O in $end
+$var wire 1 P out $end
+$var wire 1 $ reset $end
+$var wire 1 Q rval $end
+$var reg 1 P newout $end
+$upscope $end
+$upscope $end
+$scope begin genblk1[14] $end
+$scope module bitreg $end
+$var wire 1 " clk $end
+$var wire 1 # enable $end
+$var wire 1 R in $end
+$var wire 1 S out $end
+$var wire 1 $ reset $end
+$var wire 1 T rval $end
+$var reg 1 S newout $end
+$upscope $end
+$upscope $end
+$scope begin genblk1[15] $end
+$scope module bitreg $end
+$var wire 1 " clk $end
+$var wire 1 # enable $end
+$var wire 1 U in $end
+$var wire 1 V out $end
+$var wire 1 $ reset $end
+$var wire 1 W rval $end
+$var reg 1 V newout $end
+$upscope $end
+$upscope $end
+$scope begin genblk1[16] $end
+$scope module bitreg $end
+$var wire 1 " clk $end
+$var wire 1 # enable $end
+$var wire 1 X in $end
+$var wire 1 Y out $end
+$var wire 1 $ reset $end
+$var wire 1 Z rval $end
+$var reg 1 Y newout $end
+$upscope $end
+$upscope $end
+$scope begin genblk1[17] $end
+$scope module bitreg $end
+$var wire 1 " clk $end
+$var wire 1 # enable $end
+$var wire 1 [ in $end
+$var wire 1 \ out $end
+$var wire 1 $ reset $end
+$var wire 1 ] rval $end
+$var reg 1 \ newout $end
+$upscope $end
+$upscope $end
+$scope begin genblk1[18] $end
+$scope module bitreg $end
+$var wire 1 " clk $end
+$var wire 1 # enable $end
+$var wire 1 ^ in $end
+$var wire 1 _ out $end
+$var wire 1 $ reset $end
+$var wire 1 ` rval $end
+$var reg 1 _ newout $end
+$upscope $end
+$upscope $end
+$scope begin genblk1[19] $end
+$scope module bitreg $end
+$var wire 1 " clk $end
+$var wire 1 # enable $end
+$var wire 1 a in $end
+$var wire 1 b out $end
+$var wire 1 $ reset $end
+$var wire 1 c rval $end
+$var reg 1 b newout $end
+$upscope $end
+$upscope $end
+$scope begin genblk1[20] $end
+$scope module bitreg $end
+$var wire 1 " clk $end
+$var wire 1 # enable $end
+$var wire 1 d in $end
+$var wire 1 e out $end
+$var wire 1 $ reset $end
+$var wire 1 f rval $end
+$var reg 1 e newout $end
+$upscope $end
+$upscope $end
+$scope begin genblk1[21] $end
+$scope module bitreg $end
+$var wire 1 " clk $end
+$var wire 1 # enable $end
+$var wire 1 g in $end
+$var wire 1 h out $end
+$var wire 1 $ reset $end
+$var wire 1 i rval $end
+$var reg 1 h newout $end
+$upscope $end
+$upscope $end
+$scope begin genblk1[22] $end
+$scope module bitreg $end
+$var wire 1 " clk $end
+$var wire 1 # enable $end
+$var wire 1 j in $end
+$var wire 1 k out $end
+$var wire 1 $ reset $end
+$var wire 1 l rval $end
+$var reg 1 k newout $end
+$upscope $end
+$upscope $end
+$scope begin genblk1[23] $end
+$scope module bitreg $end
+$var wire 1 " clk $end
+$var wire 1 # enable $end
+$var wire 1 m in $end
+$var wire 1 n out $end
+$var wire 1 $ reset $end
+$var wire 1 o rval $end
+$var reg 1 n newout $end
+$upscope $end
+$upscope $end
+$scope begin genblk1[24] $end
+$scope module bitreg $end
+$var wire 1 " clk $end
+$var wire 1 # enable $end
+$var wire 1 p in $end
+$var wire 1 q out $end
+$var wire 1 $ reset $end
+$var wire 1 r rval $end
+$var reg 1 q newout $end
+$upscope $end
+$upscope $end
+$scope begin genblk1[25] $end
+$scope module bitreg $end
+$var wire 1 " clk $end
+$var wire 1 # enable $end
+$var wire 1 s in $end
+$var wire 1 t out $end
+$var wire 1 $ reset $end
+$var wire 1 u rval $end
+$var reg 1 t newout $end
+$upscope $end
+$upscope $end
+$scope begin genblk1[26] $end
+$scope module bitreg $end
+$var wire 1 " clk $end
+$var wire 1 # enable $end
+$var wire 1 v in $end
+$var wire 1 w out $end
+$var wire 1 $ reset $end
+$var wire 1 x rval $end
+$var reg 1 w newout $end
+$upscope $end
+$upscope $end
+$scope begin genblk1[27] $end
+$scope module bitreg $end
+$var wire 1 " clk $end
+$var wire 1 # enable $end
+$var wire 1 y in $end
+$var wire 1 z out $end
+$var wire 1 $ reset $end
+$var wire 1 { rval $end
+$var reg 1 z newout $end
+$upscope $end
+$upscope $end
+$scope begin genblk1[28] $end
+$scope module bitreg $end
+$var wire 1 " clk $end
+$var wire 1 # enable $end
+$var wire 1 | in $end
+$var wire 1 } out $end
+$var wire 1 $ reset $end
+$var wire 1 ~ rval $end
+$var reg 1 } newout $end
+$upscope $end
+$upscope $end
+$scope begin genblk1[29] $end
+$scope module bitreg $end
+$var wire 1 " clk $end
+$var wire 1 # enable $end
+$var wire 1 !" in $end
+$var wire 1 "" out $end
+$var wire 1 $ reset $end
+$var wire 1 #" rval $end
+$var reg 1 "" newout $end
+$upscope $end
+$upscope $end
+$scope begin genblk1[30] $end
+$scope module bitreg $end
+$var wire 1 " clk $end
+$var wire 1 # enable $end
+$var wire 1 $" in $end
+$var wire 1 %" out $end
+$var wire 1 $ reset $end
+$var wire 1 &" rval $end
+$var reg 1 %" newout $end
+$upscope $end
+$upscope $end
+$scope begin genblk1[31] $end
+$scope module bitreg $end
+$var wire 1 " clk $end
+$var wire 1 # enable $end
+$var wire 1 '" in $end
+$var wire 1 (" out $end
+$var wire 1 $ reset $end
+$var wire 1 )" rval $end
+$var reg 1 (" newout $end
+$upscope $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+0)"
+x("
+0'"
+0&"
+x%"
+0$"
+0#"
+x""
+0!"
+0~
+x}
+0|
+0{
+xz
+0y
+0x
+xw
+0v
+0u
+xt
+0s
+0r
+xq
+0p
+0o
+xn
+0m
+0l
+xk
+0j
+0i
+xh
+0g
+0f
+xe
+0d
+0c
+xb
+0a
+0`
+x_
+0^
+0]
+x\
+0[
+0Z
+xY
+0X
+0W
+xV
+0U
+0T
+xS
+0R
+0Q
+xP
+0O
+0N
+xM
+0L
+0K
+xJ
+0I
+0H
+xG
+0F
+0E
+xD
+0C
+0B
+xA
+0@
+0?
+x>
+0=
+0<
+x;
+0:
+09
+x8
+07
+06
+x5
+04
+03
+x2
+01
+00
+x/
+0.
+0-
+x,
+0+
+0*
+x)
+0(
+bx '
+b0 &
+b0 %
+1$
+0#
+x"
+bx !
+$end
+#20
+0)
+0,
+0/
+02
+05
+08
+0;
+0>
+0A
+0D
+0G
+0J
+0M
+0P
+0S
+0V
+0Y
+0\
+0_
+0b
+0e
+0h
+0k
+0n
+0q
+0t
+0w
+0z
+0}
+0""
+0%"
+b0 !
+b0 '
+0("
+1"
+#70
+0"
+#100
+0$
+#120
+1"
+#170
+0"
+#220
+1"
+#270
+0"
+#300
+1(
+1+
+1.
+11
+14
+17
+1:
+1=
+1@
+1C
+1F
+1I
+1L
+1O
+1R
+1U
+1X
+1[
+1^
+1a
+1d
+1g
+1j
+1m
+1p
+1s
+1v
+1y
+1|
+1!"
+1$"
+1'"
+b11111111111111111111111111111111 %
+b11111111111111111111111111111111 &
+#320
+1"
+#370
+0"
+#420
+1"
+#470
+0"
+#500
+1#
+#520
+1("
+1%"
+1""
+1}
+1z
+1w
+1t
+1q
+1n
+1k
+1h
+1e
+1b
+1_
+1\
+1Y
+1V
+1S
+1P
+1M
+1J
+1G
+1D
+1A
+1>
+1;
+18
+15
+12
+1/
+1,
+b11111111111111111111111111111111 !
+b11111111111111111111111111111111 '
+1)
+1"
+#570
+0"
+#620
+1"
+#670
+0"
+#700
+0.
+0X
+0^
+0j
+0p
+0v
+0$"
+b10111010101110101111111111111011 %
+b10111010101110101111111111111011 &
+#720
+0%"
+0w
+0q
+0k
+0_
+0Y
+b10111010101110101111111111111011 !
+b10111010101110101111111111111011 '
+0/
+1"
+#750
