@@ -1,6 +1,0 @@
-<testsuites name="results">
-  <testsuite name="all" package="all">
-    <property name="random_seed" value="1784331972" />
-    <testcase name="basic_test" classname="test_ALU" file="/mnt/c/Users/smore/OneDrive/Desktop/Creative/verilog/Verilog-CPU/ALU/test_ALU.py" lineno="40" time="0.010340452194213867" sim_time_ns="420.0" ratio_time="40617.17922113855" />
-  </testsuite>
-</testsuites>
